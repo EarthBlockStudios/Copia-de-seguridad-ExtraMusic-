@@ -1,0 +1,85 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 279,
+    "height": 152,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Es utilizado para fabricar los discos y",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Es utilizado para fabricar los discos y",
+          "x": 95,
+          "y": 138
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "DISCO VACÍO",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "name": "DISCO VACÍO",
+          "x": 97,
+          "y": 54
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Atrás",
+          "onClick": {
+            "name": "Apag1"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Atrás",
+          "x": 83,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2022-04-18_2.png",
+          "use1Xscale": true,
+          "name": "2022-04-18_2.png",
+          "x": 77,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "el estudio de música",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "el estudio de música",
+          "x": 95,
+          "y": 151
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

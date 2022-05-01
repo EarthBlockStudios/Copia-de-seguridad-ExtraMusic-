@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "siriusr:cotck"
+    },
+    "title": {
+      "translate": "advancements.boringtime.title"
+    },
+    "description": {
+      "translate": "advancements.boringtime.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "boringtime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "siriusr:cotck"
+            ],
+            "count": {
+              "min": 1,
+              "max": 10000000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "siriusr:sonidosharmoniosos"
+}

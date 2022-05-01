@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sevnatarm",
+    "name": "Seven Nation Army",
+    "description": "The withe stripes",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:seven_nation_army_2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

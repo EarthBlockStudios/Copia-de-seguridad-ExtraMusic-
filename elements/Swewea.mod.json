@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sweaterw",
+    "name": "Sweater Weather",
+    "description": "The Neighbourhood",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:swewea"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

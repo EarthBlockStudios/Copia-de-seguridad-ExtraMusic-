@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "enemy",
+    "name": "Enemy",
+    "description": "Imagine Dragons X JID",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:enemyb"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

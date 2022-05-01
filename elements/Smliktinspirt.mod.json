@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "smlktnsp",
+    "name": "Smells like teen spirit",
+    "description": "Nirvana",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:smellliktin"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

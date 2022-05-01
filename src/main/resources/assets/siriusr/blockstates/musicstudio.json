@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "siriusr:block/musicstudio"
+    },
+    "facing=east": {
+      "model": "siriusr:block/musicstudio",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "siriusr:block/musicstudio",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "siriusr:block/musicstudio",
+      "y": 270
+    }
+  }
+}

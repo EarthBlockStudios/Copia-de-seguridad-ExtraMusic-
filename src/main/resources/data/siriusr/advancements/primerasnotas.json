@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "siriusr:musicstudio"
+    },
+    "title": {
+      "translate": "advancements.primerasnotas.title"
+    },
+    "description": {
+      "translate": "advancements.primerasnotas.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "primerasnotas": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "siriusr:sonidosharmoniosos"
+}

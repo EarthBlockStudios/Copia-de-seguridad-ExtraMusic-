@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "morirodare",
+    "name": "Morirò da re",
+    "description": "Måneskin",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:morirodare"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

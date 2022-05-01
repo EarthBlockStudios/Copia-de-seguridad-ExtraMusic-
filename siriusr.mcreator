@@ -1,0 +1,756 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cometogether",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cometogether",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Discs",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discs",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Enemy",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enemy",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Studio",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studio",
+      "path": "~/Musica/Creacion"
+    },
+    {
+      "name": "Musicstudio",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicstudio",
+      "path": "~/Musica/Creacion"
+    },
+    {
+      "name": "DiscoV",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_v",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Study",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "study",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Musica/Creacion"
+    },
+    {
+      "name": "Estudio",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estudio",
+      "path": "~/Musica/Creacion"
+    },
+    {
+      "name": "Edisc",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edisc",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Cotck",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cotck",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Boringtime",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boringtime",
+      "path": "~/Musica/Logros"
+    },
+    {
+      "name": "Sonidosharmoniosos",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidosharmoniosos",
+      "path": "~/Musica/Logros"
+    },
+    {
+      "name": "Primerasnotas",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primerasnotas",
+      "path": "~/Musica/Logros"
+    },
+    {
+      "name": "Primnot",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primnot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Musica/Logros"
+    },
+    {
+      "name": "Bard",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bard",
+      "path": "~/Musica/Entidades"
+    },
+    {
+      "name": "Bardo",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bardo",
+      "path": "~/Musica/Entidades"
+    },
+    {
+      "name": "Bardo2",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bardo_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Musica/Entidades"
+    },
+    {
+      "name": "Music",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Musicscores",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicscores",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Mstudio",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mstudio",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Pag1ams",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pag_1ams",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "AMusic",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_music",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Apag1",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apag_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Abard",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abard",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Discossss",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discossss",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Adiscos",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adiscos",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Erte",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erte",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "ADV",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adv",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Msicscores",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msicscores",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Wonderwall",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonderwall",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Si",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "si",
+      "path": "~/Musica"
+    },
+    {
+      "name": "Swewea",
+      "type": "musicdisc",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swewea",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Giotheme",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giotheme",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Discos3",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discos_3",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Discos4",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discos_4",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Smliktinspirt",
+      "type": "musicdisc",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smliktinspirt",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Morirodare",
+      "type": "musicdisc",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morirodare",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Sevennationarmy",
+      "type": "musicdisc",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sevennationarmy",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Savetonight",
+      "type": "musicdisc",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savetonight",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Sultansofswing",
+      "type": "musicdisc",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sultansofswing",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Duhast",
+      "type": "musicdisc",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duhast",
+      "path": "~/Musica/Discos"
+    },
+    {
+      "name": "Discos2",
+      "type": "gui",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discos_2",
+      "path": "~/Musica/Libro"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "enemy",
+      "files": [
+        "imagine-dragons-x-j.i.d-enemy-_from-the-series-arcane-league-of-legends__160k-_1_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "enemyb",
+      "files": [
+        "imagine-dragons_-jid-enemy-_lyrics_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "thecoftcking",
+      "files": [
+        "the-court-of-the-crimson-king-king-cri"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "ct",
+      "files": [
+        "the-beatles-come-together-_ytconvert.in_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "won",
+      "files": [
+        "oasis-wonderwall-_official-video_-_ytconvert.in_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "giothem",
+      "files": [
+        "jojo_s-bizarre-adventure-golden-wind-ost-giorno_s-themeil-vento-d_oro_-_ytconvert.in_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "swewea",
+      "files": [
+        "sweater-weather-_ytconvert.in_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "smellliktin",
+      "files": [
+        "nirvana-smells-like-teen-spirit-_official-music-video_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "morirodare",
+      "files": [
+        "maneskin-moriro-da-re-_lyrics_testo_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "seven_nation_army-the_withe_stripes",
+      "files": [
+        "the-white-stripes-seven-nation-army-_official-music-video_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "save_tonight-eagle_eye_cherry",
+      "files": [
+        "eagle-eye-cherry-save-tonight-lyrics"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sultans_of_swing-dire_straits",
+      "files": [
+        "dire-straits-sultans-of-swing"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "du_hast-ramstein",
+      "files": [
+        "rammstein-du-hast-_official-video_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "seven_nation_army_2",
+      "files": [
+        "the-white-stripes-seven-nation-army-_official-music-video__1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.betacraft.bard": "Bard",
+      "block.siriusr.musicstudio": "Estudio de música",
+      "advancements.sonidosharmoniosos.title": "Sonidos harmoniosos",
+      "item.siriusr.wonderwall.desc": "Oasis",
+      "subtitles.smellliktin": "",
+      "item.siriusr.cometogether.desc": "The beatles",
+      "item.betacraft.cometogether.desc": "The beatles",
+      "item.siriusr.enemy.desc": "Imagine Dragons X JID",
+      "item.betacraft.disco_v": "Disco Vacío",
+      "item.siriusr.sultansofswing": "Sultans of Swing",
+      "item.siriusr.sevennationarmy": "Seven Nation Army",
+      "advancements.sonidosharmoniosos.descr": "¡Empieza tu camino en la música!",
+      "item.siriusr.wonderwall": "Wonderwall",
+      "block.betacraft.musicstudio": "Estudio de música",
+      "item.siriusr.enemy": "Enemy",
+      "advancements.primerasnotas.descr": "Crea un disco en el estudio",
+      "item.siriusr.cotck.desc": "King Crimson",
+      "item.siriusr.duhast.desc": "Ramstein",
+      "item.siriusr.si": "TAB",
+      "subtitles.swewea": "",
+      "item.siriusr.savetonight.desc": "Eagle-Eye Cherry",
+      "item.siriusr.cometogether": "Come together",
+      "subtitles.giothem": "",
+      "item.siriusr.smliktinspirt": "Smells like teen spirit",
+      "item.siriusr.sevennationarmy.desc": "The withe stripes",
+      "advancements.boringtime.title": "Tiempo para aburrir",
+      "item.siriusr.morirodare": "Morirò da re",
+      "subtitles.seven_nation_army-the_withe_stripes": "",
+      "item.siriusr.musicscores": "§3Music §3\u0026 §3scores",
+      "subtitles.enemy": "",
+      "item.betacraft.enemy.desc": "Imagine Dragons X JID",
+      "item.betacraft.cotck.desc": "King Crimson",
+      "itemGroup.tabdiscs": "Discos+",
+      "item.siriusr.smliktinspirt.desc": "Nirvana",
+      "item.siriusr.duhast": "Du Hast",
+      "item.betacraft.cotck": "The court of the crimson king",
+      "item.siriusr.giotheme.desc": "Yugo Kanno",
+      "item.siriusr.swewea.desc": "The Neighbourhood",
+      "subtitles.ct": "",
+      "item.betacraft.enemy": "Enemy",
+      "item.siriusr.bard_spawn_egg": "Bard Spawn Egg",
+      "item.siriusr.giotheme": "Giorno\u0027s Theme",
+      "item.siriusr.morirodare.desc": "Måneskin",
+      "subtitles.won": "",
+      "advancements.boringtime.descr": "Conseguiste la canción más larga del mod...",
+      "subtitles.thecoftcking": "",
+      "item.siriusr.sultansofswing.desc": "Dire Straits",
+      "item.siriusr.cotck": "The court of the crimson king",
+      "subtitles.enemyb": "",
+      "item.siriusr.swewea": "Sweater Weather",
+      "item.betacraft.cometogether": "Come together",
+      "subtitles.du_hast-ramstein": "",
+      "subtitles.seven_nation_army_2": "",
+      "advancements.primerasnotas.title": "Primeras notas",
+      "item.betacraft.bard_spawn_egg": "Bard Spawn Egg",
+      "item.siriusr.disco_v": "Disco Vacío",
+      "subtitles.save_tonight-eagle_eye_cherry": "",
+      "entity.siriusr.bard": "Bard",
+      "item.siriusr.savetonight": "Save Tonight",
+      "subtitles.sultans_of_swing-dire_straits": "",
+      "subtitles.morirodare": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Musica",
+        "children": [
+          {
+            "name": "Libro",
+            "children": []
+          },
+          {
+            "name": "Discos",
+            "children": []
+          },
+          {
+            "name": "Logros",
+            "children": []
+          },
+          {
+            "name": "Entidades",
+            "children": []
+          },
+          {
+            "name": "Creacion",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "siriusr",
+    "modName": "ExtraMusic",
+    "version": "1.0.0",
+    "author": "Magosirius",
+    "websiteURL": "https://magosiriusgameplays.wordpress.com/",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo_web",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "EarthBlock Studios",
+    "modElementsPackage": "extramusic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

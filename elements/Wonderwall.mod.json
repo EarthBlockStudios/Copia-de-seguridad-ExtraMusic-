@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "wonderw",
+    "name": "Wonderwall",
+    "description": "Oasis",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:won"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "savetonight",
+    "name": "Save Tonight",
+    "description": "Eagle-Eye Cherry",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:save_tonight-eagle_eye_cherry"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

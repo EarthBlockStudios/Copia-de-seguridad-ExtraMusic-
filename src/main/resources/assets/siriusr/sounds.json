@@ -1,0 +1,128 @@
+{
+  "enemy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "siriusr:imagine-dragons-x-j.i.d-enemy-_from-the-series-arcane-league-of-legends__160k-_1_",
+        "stream": true
+      }
+    ]
+  },
+  "enemyb": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "siriusr:imagine-dragons_-jid-enemy-_lyrics_",
+        "stream": true
+      }
+    ]
+  },
+  "thecoftcking": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "siriusr:the-court-of-the-crimson-king-king-cri",
+        "stream": true
+      }
+    ]
+  },
+  "ct": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "siriusr:the-beatles-come-together-_ytconvert.in_",
+        "stream": true
+      }
+    ]
+  },
+  "won": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:oasis-wonderwall-_official-video_-_ytconvert.in_",
+        "stream": false
+      }
+    ]
+  },
+  "giothem": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:jojo_s-bizarre-adventure-golden-wind-ost-giorno_s-themeil-vento-d_oro_-_ytconvert.in_",
+        "stream": false
+      }
+    ]
+  },
+  "swewea": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:sweater-weather-_ytconvert.in_",
+        "stream": false
+      }
+    ]
+  },
+  "smellliktin": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:nirvana-smells-like-teen-spirit-_official-music-video_",
+        "stream": false
+      }
+    ]
+  },
+  "morirodare": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:maneskin-moriro-da-re-_lyrics_testo_",
+        "stream": false
+      }
+    ]
+  },
+  "seven_nation_army-the_withe_stripes": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:the-white-stripes-seven-nation-army-_official-music-video_",
+        "stream": false
+      }
+    ]
+  },
+  "save_tonight-eagle_eye_cherry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:eagle-eye-cherry-save-tonight-lyrics",
+        "stream": false
+      }
+    ]
+  },
+  "sultans_of_swing-dire_straits": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:dire-straits-sultans-of-swing",
+        "stream": false
+      }
+    ]
+  },
+  "du_hast-ramstein": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:rammstein-du-hast-_official-video_",
+        "stream": false
+      }
+    ]
+  },
+  "seven_nation_army_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "siriusr:the-white-stripes-seven-nation-army-_official-music-video__1",
+        "stream": false
+      }
+    ]
+  }
+}

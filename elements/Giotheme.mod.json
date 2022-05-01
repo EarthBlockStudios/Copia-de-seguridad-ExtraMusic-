@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "giorno",
+    "name": "Giorno's Theme",
+    "description": "Yugo Kanno",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:giothem"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

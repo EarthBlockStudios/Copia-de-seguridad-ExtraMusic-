@@ -1,0 +1,138 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 279,
+    "height": 152,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Estudio de música",
+          "onClick": {
+            "name": "Pag1ams"
+          },
+          "width": 113,
+          "height": 20,
+          "name": "Estudio de música",
+          "x": 105,
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Discos",
+          "onClick": {
+            "name": "Adiscos"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Discos",
+          "x": 105,
+          "y": 140
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Disco Vacío",
+          "onClick": {
+            "name": "ADV"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Disco Vacío",
+          "x": 105,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Bardos",
+          "onClick": {
+            "name": "Abard"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Bardos",
+          "x": 104,
+          "y": 168
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "em.png",
+          "use1Xscale": false,
+          "name": "em.png",
+          "x": 82,
+          "y": 169
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui1.png",
+          "use1Xscale": false,
+          "name": "gui1.png",
+          "x": 82,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logotipo1_copia_1.png",
+          "use1Xscale": false,
+          "name": "logotipo1_copia_1.png",
+          "x": 250,
+          "y": 94
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ea.png",
+          "use1Xscale": false,
+          "name": "ea.png",
+          "x": 82,
+          "y": 142
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ered_1.png",
+          "use1Xscale": false,
+          "name": "ered_1.png",
+          "x": 81,
+          "y": 114
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logotipo2_copia_1.png",
+          "use1Xscale": false,
+          "name": "logotipo2_copia_1.png",
+          "x": 111,
+          "y": 46
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

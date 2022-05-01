@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_c",
+    "name": "Come together",
+    "description": "The beatles",
+    "creativeTab": {
+      "value": "CUSTOM:Discs"
+    },
+    "music": {
+      "value": "CUSTOM:ct"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

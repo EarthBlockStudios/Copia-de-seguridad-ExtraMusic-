@@ -1,0 +1,104 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Intercambiar",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Intercambiar",
+          "x": 135,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 134,
+          "y": 77
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 256,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lovepik_com-401234413-yellow-arrow_1.png",
+          "use1Xscale": false,
+          "name": "lovepik_com-401234413-yellow-arrow_1.png",
+          "x": 240,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Intercambio",
+          "onClick": {
+            "name": "Bardo2"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Intercambio",
+          "x": 157,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui1.png",
+          "use1Xscale": false,
+          "name": "gui1.png",
+          "x": 257,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "em.png",
+          "use1Xscale": false,
+          "name": "em.png",
+          "x": 135,
+          "y": 60
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

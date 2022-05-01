@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "siriusr:blocks/noteblock",
+    "up": "siriusr:blocks/636976391392602115",
+    "north": "siriusr:blocks/noteblock",
+    "east": "siriusr:blocks/noteblock",
+    "south": "siriusr:blocks/noteblock",
+    "west": "siriusr:blocks/noteblock",
+    "particle": "siriusr:blocks/noteblock"
+  }
+}

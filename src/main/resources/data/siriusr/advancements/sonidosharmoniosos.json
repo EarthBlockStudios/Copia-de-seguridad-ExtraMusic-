@@ -1,0 +1,42 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "siriusr:disco_v"
+    },
+    "title": {
+      "translate": "advancements.sonidosharmoniosos.title"
+    },
+    "description": {
+      "translate": "advancements.sonidosharmoniosos.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sonidosharmoniosos": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "siriusr:disco_v"
+            ],
+            "count": {
+              "min": 1,
+              "max": 256
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "siriusr:estudio"
+    ]
+  }
+}
