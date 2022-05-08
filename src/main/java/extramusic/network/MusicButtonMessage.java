@@ -78,7 +78,7 @@ public class MusicButtonMessage {
 		}
 		if (buttonID == 2) {
 
-			ADVProcedure.execute(world, x, y, z, entity);
+			ADVProcedure.execute();
 		}
 		if (buttonID == 3) {
 
@@ -86,7 +86,7 @@ public class MusicButtonMessage {
 		}
 		if (buttonID == 4) {
 
-			AidiomaProcedure.execute(world, x, y, z, entity);
+			AidiomaProcedure.execute();
 		}
 	}
 

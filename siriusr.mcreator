@@ -238,15 +238,6 @@
       "path": "~/Musica/Libro"
     },
     {
-      "name": "AMusic",
-      "type": "gui",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_music",
-      "path": "~/Musica/Libro"
-    },
-    {
       "name": "Apag1",
       "type": "procedure",
       "sortid": 17,
@@ -313,15 +304,6 @@
       "path": "~/Musica/Libro"
     },
     {
-      "name": "Discossss",
-      "type": "gui",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discossss",
-      "path": "~/Musica/Libro"
-    },
-    {
       "name": "Adiscos",
       "type": "procedure",
       "sortid": 20,
@@ -352,15 +334,6 @@
           }
         ]
       },
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Erte",
-      "type": "gui",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erte",
       "path": "~/Musica/Libro"
     },
     {
@@ -442,24 +415,6 @@
       "path": "~/Musica/Discos"
     },
     {
-      "name": "Discos3",
-      "type": "gui",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discos_3",
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Discos4",
-      "type": "gui",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discos_4",
-      "path": "~/Musica/Libro"
-    },
-    {
       "name": "Smliktinspirt",
       "type": "musicdisc",
       "sortid": 31,
@@ -512,15 +467,6 @@
       "locked_code": false,
       "registry_name": "duhast",
       "path": "~/Musica/Discos"
-    },
-    {
-      "name": "Discos2",
-      "type": "gui",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discos_2",
-      "path": "~/Musica/Libro"
     },
     {
       "name": "Logro",

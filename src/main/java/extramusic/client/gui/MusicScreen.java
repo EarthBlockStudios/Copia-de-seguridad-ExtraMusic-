@@ -105,25 +105,25 @@ public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 70, 113, 20, new TextComponent("Estudio de m�sica"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 40, this.topPos + 69, 113, 20, new TextComponent("Estudio de m�sica"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(0, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 96, 56, 20, new TextComponent("Discos"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 40, this.topPos + 95, 56, 20, new TextComponent("Discos"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(1, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 42, 82, 20, new TextComponent("Disco Vac�o"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 40, this.topPos + 42, 82, 20, new TextComponent("Disco Vac�o"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(2, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 30, this.topPos + 124, 56, 20, new TextComponent("Bardos"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 39, this.topPos + 122, 56, 20, new TextComponent("Bardos"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(3, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 3, x, y, z);
