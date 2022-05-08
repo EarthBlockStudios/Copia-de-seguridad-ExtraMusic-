@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -26,12 +26,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Los bardos son entidades que te intercambiarán",
+          "text": "Los bardos son entidades que te intercambiarï¿½n",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Los bardos son entidades que te intercambiarán",
+          "name": "Los bardos son entidades que te intercambiarï¿½n",
           "x": 85,
           "y": 146
         }
@@ -39,12 +39,12 @@
       {
         "type": "label",
         "data": {
-          "text": "5 esmeraldas por un disco de música o 5 de hierro",
+          "text": "5 esmeraldas por un disco de mï¿½sica o 5 de hierro",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "5 esmeraldas por un disco de música o 5 de hierro",
+          "name": "5 esmeraldas por un disco de mï¿½sica o 5 de hierro",
           "x": 85,
           "y": 158
         }
@@ -62,13 +62,13 @@
       {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
+          "name": "Atrï¿½s",
           "x": 83,
           "y": 171
         }

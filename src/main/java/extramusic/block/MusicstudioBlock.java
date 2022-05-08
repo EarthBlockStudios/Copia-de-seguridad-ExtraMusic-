@@ -1,7 +1,9 @@
 
 package extramusic.block;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -46,7 +48,6 @@ public class MusicstudioBlock extends Block {
 	public MusicstudioBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 1));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("musicstudio");
 	}
 
 	@Override
@@ -100,7 +101,7 @@ public class MusicstudioBlock extends Block {
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Estudio de música");
+					return new TextComponent("Estudio de mï¿½sica");
 				}
 
 				@Override

@@ -11,6 +11,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import extramusic.world.inventory.StudioMenu;
 
 import extramusic.network.StudioButtonMessage;
@@ -21,6 +23,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class StudioScreen extends AbstractContainerScreen<StudioMenu> {
+	private final static HashMap<String, Object> guistate = StudioMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -81,7 +84,7 @@ public class StudioScreen extends AbstractContainerScreen<StudioMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Crear m\u00FAsica", 17, 4, -12829636);
+		this.font.draw(poseStack, "Crear m\uFFFDsica", 17, 4, -12829636);
 	}
 
 	@Override

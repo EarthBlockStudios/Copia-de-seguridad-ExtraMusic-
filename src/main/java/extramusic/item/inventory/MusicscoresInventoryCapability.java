@@ -29,7 +29,7 @@ public class MusicscoresInventoryCapability implements ICapabilitySerializable<C
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntityItem().getItem().getItem() == SiriusrModItems.MUSICSCORES) {
+		if (event.getEntityItem().getItem().getItem() == SiriusrModItems.MUSICSCORES.get()) {
 			if (Minecraft.getInstance().screen instanceof MusicScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -62,7 +62,7 @@ public class MusicscoresInventoryCapability implements ICapabilitySerializable<C
 
 			@Override
 			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-				return stack.getItem() != SiriusrModItems.MUSICSCORES;
+				return stack.getItem() != SiriusrModItems.MUSICSCORES.get();
 			}
 
 			@Override

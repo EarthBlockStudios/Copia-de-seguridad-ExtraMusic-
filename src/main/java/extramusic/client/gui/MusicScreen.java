@@ -11,6 +11,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import extramusic.world.inventory.MusicMenu;
 
 import extramusic.network.MusicButtonMessage;
@@ -21,6 +23,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
+	private final static HashMap<String, Object> guistate = MusicMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -102,7 +105,7 @@ public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 70, 113, 20, new TextComponent("Estudio de música"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 70, 113, 20, new TextComponent("Estudio de mï¿½sica"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(0, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 0, x, y, z);
@@ -114,7 +117,7 @@ public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
 				MusicButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 42, 82, 20, new TextComponent("Disco Vacío"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 31, this.topPos + 42, 82, 20, new TextComponent("Disco Vacï¿½o"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(2, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 2, x, y, z);

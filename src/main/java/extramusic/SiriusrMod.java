@@ -16,10 +16,12 @@ package extramusic;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -29,6 +31,9 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import extramusic.init.SiriusrModTabs;
+import extramusic.init.SiriusrModItems;
+import extramusic.init.SiriusrModEntities;
+import extramusic.init.SiriusrModBlocks;
 
 @Mod("siriusr")
 public class SiriusrMod {
@@ -41,6 +46,11 @@ public class SiriusrMod {
 
 	public SiriusrMod() {
 		SiriusrModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		SiriusrModBlocks.REGISTRY.register(bus);
+		SiriusrModItems.REGISTRY.register(bus);
+		SiriusrModEntities.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

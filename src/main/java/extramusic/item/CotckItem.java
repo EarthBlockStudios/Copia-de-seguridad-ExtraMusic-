@@ -13,6 +13,5 @@ public class CotckItem extends RecordItem {
 	public CotckItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:thecoftcking")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("cotck");
 	}
 }

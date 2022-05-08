@@ -11,6 +11,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import extramusic.world.inventory.Discos3Menu;
 
 import extramusic.network.Discos3ButtonMessage;
@@ -21,6 +23,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class Discos3Screen extends AbstractContainerScreen<Discos3Menu> {
+	private final static HashMap<String, Object> guistate = Discos3Menu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -130,7 +133,7 @@ public class Discos3Screen extends AbstractContainerScreen<Discos3Menu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atrás"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atrï¿½s"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new Discos3ButtonMessage(0, x, y, z));
 				Discos3ButtonMessage.handleButtonAction(entity, 0, x, y, z);

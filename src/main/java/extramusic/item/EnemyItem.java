@@ -13,6 +13,5 @@ public class EnemyItem extends RecordItem {
 	public EnemyItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:enemyb")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("enemy");
 	}
 }

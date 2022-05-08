@@ -13,6 +13,5 @@ public class GiothemeItem extends RecordItem {
 	public GiothemeItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:giothem")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("giotheme");
 	}
 }

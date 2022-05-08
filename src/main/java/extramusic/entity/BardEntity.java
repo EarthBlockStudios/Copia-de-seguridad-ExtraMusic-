@@ -2,13 +2,13 @@
 package extramusic.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.items.wrapper.EntityHandsInvWrapper;
 import net.minecraftforge.items.wrapper.EntityArmorInvWrapper;
 import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
-import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -71,11 +71,11 @@ import extramusic.init.SiriusrModEntities;
 public class BardEntity extends Villager {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(SiriusrModEntities.BARD, 2, 1, 4));
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(SiriusrModEntities.BARD.get(), 2, 1, 4));
 	}
 
-	public BardEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		this(SiriusrModEntities.BARD, world);
+	public BardEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(SiriusrModEntities.BARD.get(), world);
 	}
 
 	public BardEntity(EntityType<BardEntity> type, Level world) {
@@ -200,7 +200,7 @@ public class BardEntity extends Villager {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(SiriusrModEntities.BARD, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(SiriusrModEntities.BARD.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}

@@ -15,6 +15,6 @@ import extramusic.client.renderer.BardRenderer;
 public class SiriusrModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(SiriusrModEntities.BARD, BardRenderer::new);
+		event.registerEntityRenderer(SiriusrModEntities.BARD.get(), BardRenderer::new);
 	}
 }

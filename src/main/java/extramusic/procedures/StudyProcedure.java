@@ -19,7 +19,7 @@ public class StudyProcedure {
 		if (new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 					if (stack != null)
 						return stack.getCount();
@@ -27,13 +27,14 @@ public class StudyProcedure {
 				return 0;
 			}
 		}.getAmount(2) >= 1) {
-			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get()instanceof Map _slots) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY);
+						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY);
 				_setstack.setCount((int) (new Object() {
 					public int getAmount(int sltid) {
 						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get()instanceof Map _slots) {
+								&& _current.get() instanceof Map _slots) {
 							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 							if (stack != null)
 								return stack.getCount();
@@ -45,29 +46,28 @@ public class StudyProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		} else {
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.BLUE_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.BLUE_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.ENEMY);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.ENEMY.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -79,29 +79,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.RED_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.RED_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.COMETOGETHER);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.COMETOGETHER.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -113,29 +112,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Blocks.REDSTONE_BLOCK.asItem()
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Blocks.REDSTONE_BLOCK.asItem()
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.COTCK);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.COTCK.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -147,29 +145,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.QUARTZ
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.QUARTZ
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.WONDERWALL);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.WONDERWALL.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -181,29 +178,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.LIGHT_BLUE_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.LIGHT_BLUE_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.SWEWEA);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.SWEWEA.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -215,29 +211,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Blocks.GOLD_BLOCK.asItem()
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Blocks.GOLD_BLOCK.asItem()
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.GIOTHEME);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.GIOTHEME.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -249,29 +244,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.CYAN_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.CYAN_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.SMLIKTINSPIRT);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.SMLIKTINSPIRT.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -283,29 +277,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.REDSTONE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.REDSTONE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.MORIRODARE);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.MORIRODARE.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -317,29 +310,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.GUNPOWDER
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.GUNPOWDER
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.SEVENNATIONARMY);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.SEVENNATIONARMY.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -351,29 +343,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.GREEN_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.GREEN_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.SAVETONIGHT);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.SAVETONIGHT.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -385,29 +376,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.BROWN_DYE
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.BROWN_DYE
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.SULTANSOFSWING);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.SULTANSOFSWING.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();
@@ -419,29 +409,28 @@ public class StudyProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
-			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
-					? ((Slot) _slt.get(1)).getItem()
-					: ItemStack.EMPTY).getItem() == Items.LAVA_BUCKET
+			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Items.LAVA_BUCKET
 					&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-							&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-									.getItem() == SiriusrModItems.DISCO_V) {
+							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+							.getItem() == SiriusrModItems.DISCO_V.get()) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(1)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
-					ItemStack _setstack = new ItemStack(SiriusrModItems.DUHAST);
+						&& _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(SiriusrModItems.DUHAST.get());
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get()instanceof Map _slots) {
+									&& _current.get() instanceof Map _slots) {
 								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 								if (stack != null)
 									return stack.getCount();

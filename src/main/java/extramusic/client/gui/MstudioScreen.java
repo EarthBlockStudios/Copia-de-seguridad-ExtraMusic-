@@ -11,6 +11,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import extramusic.world.inventory.MstudioMenu;
 
 import extramusic.network.MstudioButtonMessage;
@@ -21,6 +23,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class MstudioScreen extends AbstractContainerScreen<MstudioMenu> {
+	private final static HashMap<String, Object> guistate = MstudioMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -75,7 +78,7 @@ public class MstudioScreen extends AbstractContainerScreen<MstudioMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "ESTUDIO DE M\u00DASICA", 19, 8, -16738048);
+		this.font.draw(poseStack, "ESTUDIO DE M\uFFFDSICA", 19, 8, -16738048);
 		this.font.draw(poseStack, "Utilizado para crear los discos del mod", 14, 114, -12829636);
 	}
 
@@ -89,7 +92,7 @@ public class MstudioScreen extends AbstractContainerScreen<MstudioMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 10, this.topPos + 125, 51, 20, new TextComponent("Atrás"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 10, this.topPos + 125, 51, 20, new TextComponent("Atrï¿½s"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MstudioButtonMessage(0, x, y, z));
 				MstudioButtonMessage.handleButtonAction(entity, 0, x, y, z);
