@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "giorno",
-    "name": "Giorno's Theme",
+    "name": "§7Anime// §bGiorno's Theme",
     "description": "Yugo Kanno",
     "creativeTab": {
       "value": "CUSTOM:Discs"

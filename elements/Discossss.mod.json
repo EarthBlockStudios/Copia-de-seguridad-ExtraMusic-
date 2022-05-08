@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,15 +13,15 @@
       {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
-          "x": 83,
-          "y": 170
+          "name": "Atrï¿½s",
+          "x": 81,
+          "y": 169
         }
       },
       {
@@ -214,6 +214,20 @@
           "name": "Come together",
           "x": 195,
           "y": 138
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>",
+          "onClick": {
+            "name": "Apag2"
+          },
+          "width": 35,
+          "height": 20,
+          "name": ">>",
+          "x": 308,
+          "y": 169
         }
       }
     ],

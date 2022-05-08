@@ -3,7 +3,7 @@
     {
       "name": "Cometogether",
       "type": "musicdisc",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cometogether",
@@ -12,7 +12,7 @@
     {
       "name": "Discs",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discs",
@@ -30,7 +30,7 @@
     {
       "name": "Studio",
       "type": "gui",
-      "sortid": 3,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "studio",
@@ -39,7 +39,7 @@
     {
       "name": "Musicstudio",
       "type": "block",
-      "sortid": 3,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "musicstudio",
@@ -48,7 +48,7 @@
     {
       "name": "DiscoV",
       "type": "item",
-      "sortid": 4,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_v",
@@ -57,7 +57,7 @@
     {
       "name": "Study",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "study",
@@ -74,7 +74,7 @@
     {
       "name": "Estudio",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "estudio",
@@ -83,7 +83,7 @@
     {
       "name": "Edisc",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "edisc",
@@ -92,7 +92,7 @@
     {
       "name": "Cotck",
       "type": "musicdisc",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cotck",
@@ -101,7 +101,7 @@
     {
       "name": "Boringtime",
       "type": "achievement",
-      "sortid": 8,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boringtime",
@@ -110,7 +110,7 @@
     {
       "name": "Sonidosharmoniosos",
       "type": "achievement",
-      "sortid": 9,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sonidosharmoniosos",
@@ -119,7 +119,7 @@
     {
       "name": "Primerasnotas",
       "type": "achievement",
-      "sortid": 10,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primerasnotas",
@@ -128,7 +128,7 @@
     {
       "name": "Primnot",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primnot",
@@ -145,7 +145,7 @@
     {
       "name": "Bard",
       "type": "livingentity",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bard",
@@ -154,7 +154,7 @@
     {
       "name": "Bardo",
       "type": "gui",
-      "sortid": 12,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bardo",
@@ -163,7 +163,7 @@
     {
       "name": "Bardo2",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bardo_2",
@@ -180,7 +180,7 @@
     {
       "name": "Music",
       "type": "gui",
-      "sortid": 14,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music",
@@ -189,7 +189,7 @@
     {
       "name": "Musicscores",
       "type": "item",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "musicscores",
@@ -198,7 +198,7 @@
     {
       "name": "Mstudio",
       "type": "gui",
-      "sortid": 15,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mstudio",
@@ -207,7 +207,7 @@
     {
       "name": "Pag1ams",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pag_1ams",
@@ -240,7 +240,7 @@
     {
       "name": "AMusic",
       "type": "gui",
-      "sortid": 16,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_music",
@@ -249,7 +249,7 @@
     {
       "name": "Apag1",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apag_1",
@@ -282,7 +282,7 @@
     {
       "name": "Abard",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "abard",
@@ -315,7 +315,7 @@
     {
       "name": "Discossss",
       "type": "gui",
-      "sortid": 19,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discossss",
@@ -324,7 +324,7 @@
     {
       "name": "Adiscos",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "adiscos",
@@ -357,7 +357,7 @@
     {
       "name": "Erte",
       "type": "gui",
-      "sortid": 21,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erte",
@@ -366,7 +366,7 @@
     {
       "name": "ADV",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "adv",
@@ -399,7 +399,7 @@
     {
       "name": "Msicscores",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "msicscores",
@@ -408,7 +408,7 @@
     {
       "name": "Wonderwall",
       "type": "musicdisc",
-      "sortid": 24,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wonderwall",
@@ -417,7 +417,7 @@
     {
       "name": "Si",
       "type": "item",
-      "sortid": 25,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "si",
@@ -426,7 +426,7 @@
     {
       "name": "Swewea",
       "type": "musicdisc",
-      "sortid": 26,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swewea",
@@ -435,34 +435,16 @@
     {
       "name": "Giotheme",
       "type": "musicdisc",
-      "sortid": 27,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "giotheme",
       "path": "~/Musica/Discos"
     },
     {
-      "name": "Discos3",
-      "type": "gui",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discos_3",
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Discos4",
-      "type": "gui",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "discos_4",
-      "path": "~/Musica/Libro"
-    },
-    {
       "name": "Smliktinspirt",
       "type": "musicdisc",
-      "sortid": 31,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smliktinspirt",
@@ -471,7 +453,7 @@
     {
       "name": "Morirodare",
       "type": "musicdisc",
-      "sortid": 32,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "morirodare",
@@ -480,7 +462,7 @@
     {
       "name": "Sevennationarmy",
       "type": "musicdisc",
-      "sortid": 33,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sevennationarmy",
@@ -489,7 +471,7 @@
     {
       "name": "Savetonight",
       "type": "musicdisc",
-      "sortid": 34,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "savetonight",
@@ -498,7 +480,7 @@
     {
       "name": "Sultansofswing",
       "type": "musicdisc",
-      "sortid": 35,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sultansofswing",
@@ -507,7 +489,7 @@
     {
       "name": "Duhast",
       "type": "musicdisc",
-      "sortid": 36,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "duhast",
@@ -516,14 +498,283 @@
     {
       "name": "Discos2",
       "type": "gui",
-      "sortid": 37,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discos_2",
       "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Discos3",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discos_3",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Discos4",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discos_4",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Apag2",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apag_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Apag3",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apag_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Apag4",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apag_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Apag5",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apag_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "English",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "english",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Espanol",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espanol",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Idioma",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idioma",
+      "path": "~/Musica/Libro"
+    },
+    {
+      "name": "Aidioma",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aidioma",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Musica/Libro"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Mstudioen",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Used for creating discs from the mod"
+    },
+    {
+      "name": "Bard1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "They exchange a random disc or some iron"
+    },
+    {
+      "name": "bard2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "for 5 emeralds"
+    },
+    {
+      "name": "dv1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Used for creating discs from the mod"
+    },
+    {
+      "name": "dv2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "and music studio"
+    },
+    {
+      "name": "TDV",
+      "type": "string",
+      "scope": "map",
+      "value": ""
+    },
+    {
+      "name": "discsthere",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "enemy",
@@ -641,64 +892,127 @@
   "language_map": {
     "en_us": {
       "entity.betacraft.bard": "Bard",
-      "block.siriusr.musicstudio": "Estudio de m�sica",
+      "block.siriusr.musicstudio": "Estudio de m�sica",
       "advancements.sonidosharmoniosos.title": "Sonidos harmoniosos",
       "item.siriusr.wonderwall.desc": "Oasis",
       "subtitles.smellliktin": "",
       "item.siriusr.cometogether.desc": "The beatles",
       "item.betacraft.cometogether.desc": "The beatles",
       "item.siriusr.enemy.desc": "Imagine Dragons X JID",
-      "item.betacraft.disco_v": "Disco Vac�o",
-      "item.siriusr.sultansofswing": "Sultans of Swing",
-      "item.siriusr.sevennationarmy": "Seven Nation Army",
-      "advancements.sonidosharmoniosos.descr": "�Empieza tu camino en la m�sica!",
-      "item.siriusr.wonderwall": "Wonderwall",
-      "block.betacraft.musicstudio": "Estudio de m�sica",
-      "item.siriusr.enemy": "Enemy",
+      "item.betacraft.disco_v": "Empty vynil",
+      "item.siriusr.sultansofswing": "§6Rock// §bSultans of Swing",
+      "item.siriusr.sevennationarmy": "§6Rock// §bSeven Nation Army",
+      "advancements.sonidosharmoniosos.descr": "�Empieza tu camino en la m�sica!",
+      "item.siriusr.wonderwall": "§aPop// §bWonderwall",
+      "block.betacraft.musicstudio": "Music studio",
+      "item.siriusr.enemy": "§6Rock// §bEnemy",
       "advancements.primerasnotas.descr": "Crea un disco en el estudio",
       "item.siriusr.cotck.desc": "King Crimson",
       "item.siriusr.duhast.desc": "Ramstein",
       "item.siriusr.si": "TAB",
       "subtitles.swewea": "",
       "item.siriusr.savetonight.desc": "Eagle-Eye Cherry",
-      "item.siriusr.cometogether": "Come together",
+      "item.siriusr.cometogether": "§bBlues// Come together",
       "subtitles.giothem": "",
-      "item.siriusr.smliktinspirt": "Smells like teen spirit",
+      "item.siriusr.smliktinspirt": "§6Rock// §bSmells like teen spirit",
       "item.siriusr.sevennationarmy.desc": "The withe stripes",
       "advancements.boringtime.title": "Tiempo para aburrir",
-      "item.siriusr.morirodare": "Morir� da re",
+      "item.siriusr.morirodare": "§6Rock// §bMorirò da re",
       "subtitles.seven_nation_army-the_withe_stripes": "",
-      "item.siriusr.musicscores": "�3Music �3\u0026 �3scores",
+      "item.siriusr.musicscores": "�3Music �3\u0026 �3scores",
       "subtitles.enemy": "",
       "item.betacraft.enemy.desc": "Imagine Dragons X JID",
       "item.betacraft.cotck.desc": "King Crimson",
       "itemGroup.tabdiscs": "Discos+",
       "item.siriusr.smliktinspirt.desc": "Nirvana",
-      "item.siriusr.duhast": "Du Hast",
+      "item.siriusr.duhast": "§cMetal// §bDu Hast",
       "item.betacraft.cotck": "The court of the crimson king",
       "item.siriusr.giotheme.desc": "Yugo Kanno",
       "item.siriusr.swewea.desc": "The Neighbourhood",
       "subtitles.ct": "",
       "item.betacraft.enemy": "Enemy",
       "item.siriusr.bard_spawn_egg": "Bard Spawn Egg",
-      "item.siriusr.giotheme": "Giorno\u0027s Theme",
-      "item.siriusr.morirodare.desc": "M�neskin",
+      "item.siriusr.giotheme": "§7Anime// §bGiorno\u0027s Theme",
+      "item.siriusr.morirodare.desc": "Maneskin",
       "subtitles.won": "",
-      "advancements.boringtime.descr": "Conseguiste la canci�n m�s larga del mod...",
+      "advancements.boringtime.descr": "Conseguiste la canci�n m�s larga del mod...",
       "subtitles.thecoftcking": "",
       "item.siriusr.sultansofswing.desc": "Dire Straits",
-      "item.siriusr.cotck": "The court of the crimson king",
+      "item.siriusr.cotck": "§6Rock// §bThe court of the crimson king",
       "subtitles.enemyb": "",
-      "item.siriusr.swewea": "Sweater Weather",
+      "item.siriusr.swewea": "§6Rock// §bSweater Weather",
       "item.betacraft.cometogether": "Come together",
       "subtitles.du_hast-ramstein": "",
       "subtitles.seven_nation_army_2": "",
       "advancements.primerasnotas.title": "Primeras notas",
       "item.betacraft.bard_spawn_egg": "Bard Spawn Egg",
-      "item.siriusr.disco_v": "Disco Vac�o",
+      "item.siriusr.disco_v": "Básico// Disco Vacío",
       "subtitles.save_tonight-eagle_eye_cherry": "",
       "entity.siriusr.bard": "Bard",
-      "item.siriusr.savetonight": "Save Tonight",
+      "item.siriusr.savetonight": "§aPop// §bSave Tonight",
+      "subtitles.sultans_of_swing-dire_straits": "",
+      "subtitles.morirodare": ""
+    },
+    "es_es": {
+      "entity.betacraft.bard": "Bardo",
+      "block.siriusr.musicstudio": "Estudio de m�sica",
+      "advancements.sonidosharmoniosos.title": "Sonidos harmoniosos",
+      "item.siriusr.wonderwall.desc": "Oasis",
+      "subtitles.smellliktin": "",
+      "item.siriusr.cometogether.desc": "The beatles",
+      "item.betacraft.cometogether.desc": "The beatles",
+      "item.siriusr.enemy.desc": "Imagine Dragons X JID",
+      "item.betacraft.disco_v": "Disco Vac�o",
+      "item.siriusr.sultansofswing": "�6Rock// �bSultans of Swing",
+      "item.siriusr.sevennationarmy": "�6Rock// �bSeven Nation Army",
+      "advancements.sonidosharmoniosos.descr": "�Empieza tu camino en la m�sica!",
+      "item.siriusr.wonderwall": "�aPop// �bWonderwall",
+      "block.betacraft.musicstudio": "Estudio de m�sica",
+      "item.siriusr.enemy": "�6Rock// �bEnemy",
+      "advancements.primerasnotas.descr": "Crea un disco en el estudio",
+      "item.siriusr.cotck.desc": "King Crimson",
+      "item.siriusr.duhast.desc": "Ramstein",
+      "item.siriusr.si": "TAB",
+      "subtitles.swewea": "",
+      "item.siriusr.savetonight.desc": "Eagle-Eye Cherry",
+      "item.siriusr.cometogether": "�bBlues// Come together",
+      "subtitles.giothem": "",
+      "item.siriusr.smliktinspirt": "�6Rock// �bSmells like teen spirit",
+      "item.siriusr.sevennationarmy.desc": "The withe stripes",
+      "advancements.boringtime.title": "Tiempo para aburrir",
+      "item.siriusr.morirodare": "�6Rock// �bMorir� da re",
+      "subtitles.seven_nation_army-the_withe_stripes": "",
+      "item.siriusr.musicscores": "�3Music �3\u0026 �3scores",
+      "subtitles.enemy": "",
+      "item.betacraft.enemy.desc": "Imagine Dragons X JID",
+      "item.betacraft.cotck.desc": "King Crimson",
+      "itemGroup.tabdiscs": "Discos+",
+      "item.siriusr.smliktinspirt.desc": "Nirvana",
+      "item.siriusr.duhast": "�cMetal// �bDu Hast",
+      "item.betacraft.cotck": "The court of the crimson king",
+      "item.siriusr.giotheme.desc": "Yugo Kanno",
+      "item.siriusr.swewea.desc": "The Neighbourhood",
+      "subtitles.ct": "",
+      "item.betacraft.enemy": "Enemy",
+      "item.siriusr.bard_spawn_egg": "Bard Spawn Egg",
+      "item.siriusr.giotheme": "�7Anime// �bGiorno\u0027s Theme",
+      "item.siriusr.morirodare.desc": "M�neskin",
+      "subtitles.won": "",
+      "advancements.boringtime.descr": "Conseguiste la canci�n m�s larga del mod...",
+      "subtitles.thecoftcking": "",
+      "item.siriusr.sultansofswing.desc": "Dire Straits",
+      "item.siriusr.cotck": "�6Rock// �bThe court of the crimson king",
+      "subtitles.enemyb": "",
+      "item.siriusr.swewea": "�6Rock// �bSweater Weather",
+      "item.betacraft.cometogether": "Come together",
+      "subtitles.du_hast-ramstein": "",
+      "subtitles.seven_nation_army_2": "",
+      "advancements.primerasnotas.title": "Primeras notas",
+      "item.betacraft.bard_spawn_egg": "Generador de bardo",
+      "item.siriusr.disco_v": "B�sico// Disco Vac�o",
+      "subtitles.save_tonight-eagle_eye_cherry": "",
+      "entity.siriusr.bard": "Bardo",
+      "item.siriusr.savetonight": "�aPop// �bSave Tonight",
       "subtitles.sultans_of_swing-dire_straits": "",
       "subtitles.morirodare": ""
     }
@@ -747,10 +1061,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "EarthBlock Studios",
     "modElementsPackage": "extramusic",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200119518
 }

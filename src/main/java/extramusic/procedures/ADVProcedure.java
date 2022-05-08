@@ -1,6 +1,6 @@
 package extramusic.procedures;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -22,9 +22,10 @@ public class ADVProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		double english = 0;
 		{
 			if (entity instanceof ServerPlayer _ent) {
-				BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bpos = new BlockPos(x, y, z);
 				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {

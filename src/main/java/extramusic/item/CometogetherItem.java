@@ -13,6 +13,5 @@ public class CometogetherItem extends RecordItem {
 	public CometogetherItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:ct")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("cometogether");
 	}
 }

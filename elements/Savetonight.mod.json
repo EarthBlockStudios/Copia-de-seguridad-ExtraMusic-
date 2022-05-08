@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "savetonight",
-    "name": "Save Tonight",
+    "name": "§aPop// §bSave Tonight",
     "description": "Eagle-Eye Cherry",
     "creativeTab": {
       "value": "CUSTOM:Discs"

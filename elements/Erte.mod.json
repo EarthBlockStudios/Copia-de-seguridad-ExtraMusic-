@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Es utilizado para fabricar los discos y",
+          "text": "<VAR:dv1>",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Es utilizado para fabricar los discos y",
+          "name": "<VAR:dv1>",
           "x": 95,
           "y": 138
         }
@@ -26,12 +26,12 @@
       {
         "type": "label",
         "data": {
-          "text": "DISCO VACÍO",
+          "text": "DISCO VACï¿½O",
           "color": {
             "value": -16738048,
             "falpha": 0.0
           },
-          "name": "DISCO VACÍO",
+          "name": "DISCO VACï¿½O",
           "x": 97,
           "y": 54
         }
@@ -39,13 +39,13 @@
       {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
+          "name": "Atrï¿½s",
           "x": 83,
           "y": 170
         }
@@ -63,12 +63,12 @@
       {
         "type": "label",
         "data": {
-          "text": "el estudio de música",
+          "text": "<VAR:dv2>",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "el estudio de música",
+          "name": "<VAR:dv2>",
           "x": 95,
           "y": 151
         }

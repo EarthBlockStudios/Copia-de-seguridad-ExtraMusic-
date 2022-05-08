@@ -13,6 +13,5 @@ public class WonderwallItem extends RecordItem {
 	public WonderwallItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:won")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("wonderwall");
 	}
 }

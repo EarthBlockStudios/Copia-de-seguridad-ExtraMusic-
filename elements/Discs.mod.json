@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "tab",
   "definition": {
     "name": "Discos+",
     "icon": {
       "value": "CUSTOM:Si"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

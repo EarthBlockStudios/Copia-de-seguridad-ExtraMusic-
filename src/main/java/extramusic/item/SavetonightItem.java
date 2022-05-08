@@ -13,6 +13,5 @@ public class SavetonightItem extends RecordItem {
 	public SavetonightItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:save_tonight-eagle_eye_cherry")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("savetonight");
 	}
 }

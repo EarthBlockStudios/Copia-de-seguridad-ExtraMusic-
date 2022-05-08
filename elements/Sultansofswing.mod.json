@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "sultansofswing",
-    "name": "Sultans of Swing",
+    "name": "§6Rock// §bSultans of Swing",
     "description": "Dire Straits",
     "creativeTab": {
       "value": "CUSTOM:Discs"

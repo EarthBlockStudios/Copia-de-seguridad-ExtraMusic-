@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "sweaterw",
-    "name": "Sweater Weather",
+    "name": "§6Rock// §bSweater Weather",
     "description": "The Neighbourhood",
     "creativeTab": {
       "value": "CUSTOM:Discs"

@@ -1,7 +1,7 @@
 
 package extramusic.network;
 
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,6 +17,7 @@ import java.util.HashMap;
 import extramusic.world.inventory.MusicMenu;
 
 import extramusic.procedures.Pag1amsProcedure;
+import extramusic.procedures.AidiomaProcedure;
 import extramusic.procedures.AdiscosProcedure;
 import extramusic.procedures.AbardProcedure;
 import extramusic.procedures.ADVProcedure;
@@ -82,6 +83,10 @@ public class MusicButtonMessage {
 		if (buttonID == 3) {
 
 			AbardProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			AidiomaProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

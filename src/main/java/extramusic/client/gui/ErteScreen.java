@@ -11,8 +11,11 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import extramusic.world.inventory.ErteMenu;
 
+import extramusic.network.SiriusrModVariables;
 import extramusic.network.ErteButtonMessage;
 
 import extramusic.SiriusrMod;
@@ -21,6 +24,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class ErteScreen extends AbstractContainerScreen<ErteMenu> {
+	private final static HashMap<String, Object> guistate = ErteMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -75,9 +79,11 @@ public class ErteScreen extends AbstractContainerScreen<ErteMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Es utilizado para fabricar los discos y", 21, 94, -12829636);
-		this.font.draw(poseStack, "DISCO VAC\u00CDO", 23, 10, -16738048);
-		this.font.draw(poseStack, "el estudio de m\u00FAsica", 21, 107, -12829636);
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).dv1) + "", 21, 94, -12829636);
+		this.font.draw(poseStack, "DISCO VAC\uFFFDO", 23, 10, -16738048);
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).dv2) + "", 21, 107, -12829636);
 	}
 
 	@Override
@@ -90,7 +96,7 @@ public class ErteScreen extends AbstractContainerScreen<ErteMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atrás"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atrï¿½s"), e -> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new ErteButtonMessage(0, x, y, z));
 				ErteButtonMessage.handleButtonAction(entity, 0, x, y, z);

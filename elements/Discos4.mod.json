@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,15 +13,15 @@
       {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
-          "x": 83,
-          "y": 170
+          "name": "Atrï¿½s",
+          "x": 81,
+          "y": 169
         }
       },
       {
@@ -80,9 +80,9 @@
       {
         "type": "image",
         "data": {
-          "image": "block_of_redstone_je2_be2_1.png",
-          "use1Xscale": true,
-          "name": "block_of_redstone_je2_be2_1.png",
+          "image": "brown_dye.png",
+          "use1Xscale": false,
+          "name": "brown_dye.png",
           "x": 132,
           "y": 85
         }
@@ -90,21 +90,21 @@
       {
         "type": "image",
         "data": {
-          "image": "blue_dye_je1_be1_1.png",
-          "use1Xscale": true,
-          "name": "blue_dye_je1_be1_1.png",
+          "image": "green_dye.png",
+          "use1Xscale": false,
+          "name": "green_dye.png",
           "x": 133,
-          "y": 113
+          "y": 112
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tear_1.png",
-          "use1Xscale": true,
-          "name": "tear_1.png",
+          "image": "lava_bucket.png",
+          "use1Xscale": false,
+          "name": "lava_bucket.png",
           "x": 133,
-          "y": 138
+          "y": 137
         }
       },
       {
@@ -150,42 +150,42 @@
       {
         "type": "image",
         "data": {
-          "image": "ea.png",
+          "image": "duhast.png",
           "use1Xscale": false,
-          "name": "ea.png",
+          "name": "duhast.png",
           "x": 172,
-          "y": 135
+          "y": 137
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tcoftck.png",
+          "image": "sultansofsw.png",
           "use1Xscale": false,
-          "name": "tcoftck.png",
-          "x": 170,
+          "name": "sultansofsw.png",
+          "x": 172,
           "y": 85
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "enemy.png",
+          "image": "savetonight.png",
           "use1Xscale": false,
-          "name": "enemy.png",
-          "x": 171,
+          "name": "savetonight.png",
+          "x": 172,
           "y": 111
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "The Court of the Crimson King",
+          "text": "Sultans of Swing",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "The Court of the Crimson King",
+          "name": "Sultans of Swing",
           "x": 193,
           "y": 88
         }
@@ -193,12 +193,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Enemy",
+          "text": "Save Tonight",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Enemy",
+          "name": "Save Tonight",
           "x": 195,
           "y": 113
         }
@@ -206,14 +206,39 @@
       {
         "type": "label",
         "data": {
-          "text": "Come together",
+          "text": "Du Hast",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Come together",
+          "name": "Du Hast",
           "x": 195,
-          "y": 138
+          "y": 139
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<<",
+          "onClick": {
+            "name": "Apag3"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<<",
+          "x": 140,
+          "y": 169
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>",
+          "width": 35,
+          "height": 20,
+          "name": ">>",
+          "x": 308,
+          "y": 169
         }
       }
     ],

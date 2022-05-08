@@ -1,0 +1,77 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 279,
+    "height": 165,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Atr�s",
+          "onClick": {
+            "name": "Apag1"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Atr�s",
+          "x": 90,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Idioma",
+          "color": {
+            "value": -13408768,
+            "falpha": 0.0
+          },
+          "name": "Idioma",
+          "x": 87,
+          "y": 50
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Espa�ol",
+          "onClick": {
+            "name": "Espanol"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Espa�ol",
+          "x": 83,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ingl�s",
+          "onClick": {
+            "name": "English"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Ingl�s",
+          "x": 83,
+          "y": 66
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

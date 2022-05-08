@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,13 +13,13 @@
       {
         "type": "button",
         "data": {
-          "text": "Estudio de música",
+          "text": "Estudio de mï¿½sica",
           "onClick": {
             "name": "Pag1ams"
           },
           "width": 113,
           "height": 20,
-          "name": "Estudio de música",
+          "name": "Estudio de mï¿½sica",
           "x": 105,
           "y": 114
         }
@@ -41,13 +41,13 @@
       {
         "type": "button",
         "data": {
-          "text": "Disco Vacío",
+          "text": "Disco Vacï¿½o",
           "onClick": {
             "name": "ADV"
           },
           "width": 82,
           "height": 20,
-          "name": "Disco Vacío",
+          "name": "Disco Vacï¿½o",
           "x": 105,
           "y": 86
         }
@@ -92,8 +92,8 @@
           "image": "logotipo1_copia_1.png",
           "use1Xscale": false,
           "name": "logotipo1_copia_1.png",
-          "x": 250,
-          "y": 94
+          "x": 243,
+          "y": 86
         }
       },
       {
@@ -124,6 +124,20 @@
           "name": "logotipo2_copia_1.png",
           "x": 111,
           "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Idioma",
+          "onClick": {
+            "name": "Aidioma"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Idioma",
+          "x": 252,
+          "y": 169
         }
       }
     ],

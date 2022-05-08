@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "ESTUDIO DE MÚSICA",
+          "text": "ESTUDIO DE Mï¿½SICA",
           "color": {
             "value": -16738048,
             "falpha": 0.0
           },
-          "name": "ESTUDIO DE MÚSICA",
+          "name": "ESTUDIO DE Mï¿½SICA",
           "x": 93,
           "y": 52
         }
@@ -34,30 +34,30 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "text": "Utilizado para crear los discos del mod",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Utilizado para crear los discos del mod",
-          "x": 88,
-          "y": 158
-        }
-      },
-      {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
+          "name": "Atrï¿½s",
           "x": 84,
           "y": 169
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Mstudioen>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Mstudioen>",
+          "x": 89,
+          "y": 158
         }
       }
     ],

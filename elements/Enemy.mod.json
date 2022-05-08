@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "enemy",
-    "name": "Enemy",
+    "name": "§6Rock// §bEnemy",
     "description": "Imagine Dragons X JID",
     "creativeTab": {
       "value": "CUSTOM:Discs"

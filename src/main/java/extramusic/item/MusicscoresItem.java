@@ -1,13 +1,14 @@
 
 package extramusic.item;
 
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -35,7 +36,11 @@ import extramusic.item.inventory.MusicscoresInventoryCapability;
 public class MusicscoresItem extends Item {
 	public MusicscoresItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
-		setRegistryName("musicscores");
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.EAT;
 	}
 
 	@Override
@@ -59,7 +64,7 @@ public class MusicscoresItem extends Item {
 			NetworkHooks.openGui(serverPlayer, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("§3Music §3& §3scores");
+					return new TextComponent("ï¿½3Music ï¿½3& ï¿½3scores");
 				}
 
 				@Override

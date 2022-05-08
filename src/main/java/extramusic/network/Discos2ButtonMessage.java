@@ -1,7 +1,7 @@
 
 package extramusic.network;
 
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,7 +16,9 @@ import java.util.HashMap;
 
 import extramusic.world.inventory.Discos2Menu;
 
+import extramusic.procedures.Apag3Procedure;
 import extramusic.procedures.Apag1Procedure;
+import extramusic.procedures.AdiscosProcedure;
 
 import extramusic.SiriusrMod;
 
@@ -67,6 +69,14 @@ public class Discos2ButtonMessage {
 		if (buttonID == 0) {
 
 			Apag1Procedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
+
+			AdiscosProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			Apag3Procedure.execute(world, x, y, z, entity);
 		}
 	}
 

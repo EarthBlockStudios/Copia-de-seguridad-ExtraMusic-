@@ -17,13 +17,13 @@ public class SiriusrModTabs {
 		TAB_DISCS = new CreativeModeTab("tabdiscs") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(SiriusrModItems.SI);
+				return new ItemStack(SiriusrModItems.SI.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return false;
+				return true;
 			}
-		};
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

@@ -1,9 +1,9 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "musicdisc",
   "definition": {
     "texture": "smlktnsp",
-    "name": "Smells like teen spirit",
+    "name": "§6Rock// §bSmells like teen spirit",
     "description": "Nirvana",
     "creativeTab": {
       "value": "CUSTOM:Discs"

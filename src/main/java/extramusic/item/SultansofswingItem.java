@@ -13,6 +13,5 @@ public class SultansofswingItem extends RecordItem {
 	public SultansofswingItem() {
 		super(0, SiriusrModSounds.REGISTRY.get(new ResourceLocation("siriusr:sultans_of_swing-dire_straits")),
 				new Item.Properties().tab(SiriusrModTabs.TAB_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("sultansofswing");
 	}
 }

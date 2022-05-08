@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,15 +13,15 @@
       {
         "type": "button",
         "data": {
-          "text": "Atrás",
+          "text": "Atrï¿½s",
           "onClick": {
             "name": "Apag1"
           },
           "width": 51,
           "height": 20,
-          "name": "Atrás",
-          "x": 83,
-          "y": 170
+          "name": "Atrï¿½s",
+          "x": 81,
+          "y": 169
         }
       },
       {
@@ -80,9 +80,9 @@
       {
         "type": "image",
         "data": {
-          "image": "block_of_redstone_je2_be2_1.png",
-          "use1Xscale": true,
-          "name": "block_of_redstone_je2_be2_1.png",
+          "image": "light_blue_dye.png",
+          "use1Xscale": false,
+          "name": "light_blue_dye.png",
           "x": 132,
           "y": 85
         }
@@ -90,21 +90,21 @@
       {
         "type": "image",
         "data": {
-          "image": "blue_dye_je1_be1_1.png",
-          "use1Xscale": true,
-          "name": "blue_dye_je1_be1_1.png",
+          "image": "quartz.png",
+          "use1Xscale": false,
+          "name": "quartz.png",
           "x": 133,
-          "y": 113
+          "y": 112
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tear_1.png",
-          "use1Xscale": true,
-          "name": "tear_1.png",
+          "image": "gold_block.png",
+          "use1Xscale": false,
+          "name": "gold_block.png",
           "x": 133,
-          "y": 138
+          "y": 137
         }
       },
       {
@@ -150,42 +150,42 @@
       {
         "type": "image",
         "data": {
-          "image": "ea.png",
+          "image": "giorno.png",
           "use1Xscale": false,
-          "name": "ea.png",
+          "name": "giorno.png",
           "x": 172,
-          "y": 135
+          "y": 137
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tcoftck.png",
+          "image": "sweaterw.png",
           "use1Xscale": false,
-          "name": "tcoftck.png",
-          "x": 170,
+          "name": "sweaterw.png",
+          "x": 172,
           "y": 85
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "enemy.png",
+          "image": "wonderwa.png",
           "use1Xscale": false,
-          "name": "enemy.png",
-          "x": 171,
+          "name": "wonderwa.png",
+          "x": 172,
           "y": 111
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "The Court of the Crimson King",
+          "text": "Sweater weather",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "The Court of the Crimson King",
+          "name": "Sweater weather",
           "x": 193,
           "y": 88
         }
@@ -193,12 +193,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Enemy",
+          "text": "Wonderwall",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Enemy",
+          "name": "Wonderwall",
           "x": 195,
           "y": 113
         }
@@ -206,14 +206,42 @@
       {
         "type": "label",
         "data": {
-          "text": "Come together",
+          "text": "Giorno's Theme",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Come together",
+          "name": "Giorno's Theme",
           "x": 195,
-          "y": 138
+          "y": 139
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<<",
+          "onClick": {
+            "name": "Adiscos"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<<",
+          "x": 140,
+          "y": 169
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>",
+          "onClick": {
+            "name": "Apag3"
+          },
+          "width": 35,
+          "height": 20,
+          "name": ">>",
+          "x": 308,
+          "y": 169
         }
       }
     ],

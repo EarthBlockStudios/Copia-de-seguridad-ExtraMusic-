@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "discov",
     "customModelName": "Normal",
-    "name": "Disco Vacío",
+    "name": "BÃ¡sico// Disco VacÃ­o",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Discs"
@@ -25,12 +25,21 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Úsalo en el estudio de música"
+      "Ãºsalo en el estudio de mÃºsica"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "hasDispenseBehavior": false
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }
