@@ -133,10 +133,20 @@ public class DiscossssScreen extends AbstractContainerScreen<DiscossssMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+<<<<<<< HEAD
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atr�s"), e -> {
+=======
+		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 125, 51, 20, new TextComponent("Atr�s"), e -> {
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new DiscossssButtonMessage(0, x, y, z));
 				DiscossssButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 234, this.topPos + 125, 35, 20, new TextComponent(">>"), e -> {
+			if (true) {
+				SiriusrMod.PACKET_HANDLER.sendToServer(new DiscossssButtonMessage(1, x, y, z));
+				DiscossssButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
 	}

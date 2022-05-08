@@ -63,7 +63,7 @@ public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
 		this.blit(ms, this.leftPos + 8, this.topPos + 44, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/logotipo1_copia_1.png"));
-		this.blit(ms, this.leftPos + 176, this.topPos + 50, 0, 0, 80, 80, 80, 80);
+		this.blit(ms, this.leftPos + 169, this.topPos + 42, 0, 0, 80, 80, 80, 80);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/ea.png"));
 		this.blit(ms, this.leftPos + 8, this.topPos + 98, 0, 0, 16, 16, 16, 16);
@@ -127,6 +127,12 @@ public class MusicScreen extends AbstractContainerScreen<MusicMenu> {
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(3, x, y, z));
 				MusicButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 178, this.topPos + 125, 61, 20, new TextComponent("Idioma"), e -> {
+			if (true) {
+				SiriusrMod.PACKET_HANDLER.sendToServer(new MusicButtonMessage(4, x, y, z));
+				MusicButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
 	}

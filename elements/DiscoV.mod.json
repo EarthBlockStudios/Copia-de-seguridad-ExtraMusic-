@@ -5,7 +5,11 @@
     "renderType": 0,
     "texture": "discov",
     "customModelName": "Normal",
+<<<<<<< HEAD
     "name": "Disco Vac�o",
+=======
+    "name": "Básico// Disco Vacío",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Discs"
@@ -25,7 +29,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
+<<<<<<< HEAD
       "�salo en el estudio de m�sica"
+=======
+      "úsalo en el estudio de música"
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
@@ -35,6 +43,12 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+<<<<<<< HEAD
+=======
+    "eatResultItem": {
+      "value": ""
+    },
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

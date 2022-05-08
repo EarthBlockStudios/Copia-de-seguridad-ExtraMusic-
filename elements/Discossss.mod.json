@@ -20,8 +20,13 @@
           "width": 51,
           "height": 20,
           "name": "Atr�s",
+<<<<<<< HEAD
           "x": 83,
           "y": 170
+=======
+          "x": 81,
+          "y": 169
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
         }
       },
       {
@@ -214,6 +219,20 @@
           "name": "Come together",
           "x": 195,
           "y": 138
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>",
+          "onClick": {
+            "name": "Apag2"
+          },
+          "width": 35,
+          "height": 20,
+          "name": ">>",
+          "x": 308,
+          "y": 169
         }
       }
     ],

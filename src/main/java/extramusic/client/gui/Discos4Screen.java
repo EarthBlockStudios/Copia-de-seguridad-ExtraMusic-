@@ -68,14 +68,14 @@ public class Discos4Screen extends AbstractContainerScreen<Discos4Menu> {
 		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/th__4_-removebg-preview_1.png"));
 		this.blit(ms, this.leftPos + 39, this.topPos + 41, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/block_of_redstone_je2_be2_1.png"));
-		this.blit(ms, this.leftPos + 58, this.topPos + 41, 0, 0, 15, 15, 15, 15);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/brown_dye.png"));
+		this.blit(ms, this.leftPos + 58, this.topPos + 41, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/blue_dye_je1_be1_1.png"));
-		this.blit(ms, this.leftPos + 59, this.topPos + 69, 0, 0, 12, 12, 12, 12);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/green_dye.png"));
+		this.blit(ms, this.leftPos + 59, this.topPos + 68, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/tear_1.png"));
-		this.blit(ms, this.leftPos + 59, this.topPos + 94, 0, 0, 12, 12, 12, 12);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/lava_bucket.png"));
+		this.blit(ms, this.leftPos + 59, this.topPos + 93, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/lovepik_com-401234413-yellow-arrow_1.png"));
 		this.blit(ms, this.leftPos + 82, this.topPos + 92, 0, 0, 16, 16, 16, 16);
@@ -89,14 +89,14 @@ public class Discos4Screen extends AbstractContainerScreen<Discos4Menu> {
 		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/ered_1.png"));
 		this.blit(ms, this.leftPos + 85, this.topPos + 26, 0, 0, 10, 10, 10, 10);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/ea.png"));
-		this.blit(ms, this.leftPos + 98, this.topPos + 91, 0, 0, 16, 16, 16, 16);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/duhast.png"));
+		this.blit(ms, this.leftPos + 98, this.topPos + 93, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/tcoftck.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 41, 0, 0, 16, 16, 16, 16);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/sultansofsw.png"));
+		this.blit(ms, this.leftPos + 98, this.topPos + 41, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/enemy.png"));
-		this.blit(ms, this.leftPos + 97, this.topPos + 67, 0, 0, 16, 16, 16, 16);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("siriusr:textures/savetonight.png"));
+		this.blit(ms, this.leftPos + 98, this.topPos + 67, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -118,9 +118,9 @@ public class Discos4Screen extends AbstractContainerScreen<Discos4Menu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "CREAR DISCOS", 17, 9, -16738048);
-		this.font.draw(poseStack, "The Court of the Crimson King", 119, 44, -12829636);
-		this.font.draw(poseStack, "Enemy", 121, 69, -12829636);
-		this.font.draw(poseStack, "Come together", 121, 94, -12829636);
+		this.font.draw(poseStack, "Sultans of Swing", 119, 44, -12829636);
+		this.font.draw(poseStack, "Save Tonight", 121, 69, -12829636);
+		this.font.draw(poseStack, "Du Hast", 121, 95, -12829636);
 	}
 
 	@Override
@@ -133,11 +133,23 @@ public class Discos4Screen extends AbstractContainerScreen<Discos4Menu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+<<<<<<< HEAD
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 126, 51, 20, new TextComponent("Atr�s"), e -> {
+=======
+		this.addRenderableWidget(new Button(this.leftPos + 7, this.topPos + 125, 51, 20, new TextComponent("Atr�s"), e -> {
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 			if (true) {
 				SiriusrMod.PACKET_HANDLER.sendToServer(new Discos4ButtonMessage(0, x, y, z));
 				Discos4ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 66, this.topPos + 125, 35, 20, new TextComponent("<<"), e -> {
+			if (true) {
+				SiriusrMod.PACKET_HANDLER.sendToServer(new Discos4ButtonMessage(1, x, y, z));
+				Discos4ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 234, this.topPos + 125, 35, 20, new TextComponent(">>"), e -> {
 		}));
 	}
 }

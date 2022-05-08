@@ -15,6 +15,7 @@ import java.util.HashMap;
 
 import extramusic.world.inventory.AMusicMenu;
 
+import extramusic.network.SiriusrModVariables;
 import extramusic.network.AMusicButtonMessage;
 
 import extramusic.SiriusrMod;
@@ -79,8 +80,15 @@ public class AMusicScreen extends AbstractContainerScreen<AMusicMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "BARDOS", 19, 9, -16738048);
+<<<<<<< HEAD
 		this.font.draw(poseStack, "Los bardos son entidades que te intercambiar\uFFFDn", 11, 102, -12829636);
 		this.font.draw(poseStack, "5 esmeraldas por un disco de m\uFFFDsica o 5 de hierro", 11, 114, -12829636);
+=======
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).Bard1) + "", 11, 102, -12829636);
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).bard2) + "", 11, 114, -12829636);
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 	}
 
 	@Override

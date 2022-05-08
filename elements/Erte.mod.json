@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Es utilizado para fabricar los discos y",
+          "text": "<VAR:dv1>",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Es utilizado para fabricar los discos y",
+          "name": "<VAR:dv1>",
           "x": 95,
           "y": 138
         }
@@ -63,12 +63,20 @@
       {
         "type": "label",
         "data": {
+<<<<<<< HEAD
           "text": "el estudio de m�sica",
+=======
+          "text": "<VAR:dv2>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
+<<<<<<< HEAD
           "name": "el estudio de m�sica",
+=======
+          "name": "<VAR:dv2>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "x": 95,
           "y": 151
         }

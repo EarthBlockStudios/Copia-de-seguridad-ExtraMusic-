@@ -15,6 +15,7 @@ import java.util.HashMap;
 
 import extramusic.world.inventory.MstudioMenu;
 
+import extramusic.network.SiriusrModVariables;
 import extramusic.network.MstudioButtonMessage;
 
 import extramusic.SiriusrMod;
@@ -79,7 +80,12 @@ public class MstudioScreen extends AbstractContainerScreen<MstudioMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "ESTUDIO DE M\uFFFDSICA", 19, 8, -16738048);
+<<<<<<< HEAD
 		this.font.draw(poseStack, "Utilizado para crear los discos del mod", 14, 114, -12829636);
+=======
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).Mstudioen) + "", 15, 114, -12829636);
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 	}
 
 	@Override

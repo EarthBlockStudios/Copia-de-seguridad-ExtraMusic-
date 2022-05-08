@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "siriusr:sevennationarmy"
+    },
+    "title": {
+      "translate": "advancements.logro.title"
+    },
+    "description": {
+      "translate": "advancements.logro.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "logro": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:smooth_sandstone_stairs"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "siriusr:boringtime"
+}

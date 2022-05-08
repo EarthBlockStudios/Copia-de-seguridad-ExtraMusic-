@@ -20,8 +20,13 @@
           "width": 51,
           "height": 20,
           "name": "Atr�s",
+<<<<<<< HEAD
           "x": 83,
           "y": 170
+=======
+          "x": 81,
+          "y": 169
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
         }
       },
       {
@@ -80,9 +85,9 @@
       {
         "type": "image",
         "data": {
-          "image": "block_of_redstone_je2_be2_1.png",
-          "use1Xscale": true,
-          "name": "block_of_redstone_je2_be2_1.png",
+          "image": "cyan_dye.png",
+          "use1Xscale": false,
+          "name": "cyan_dye.png",
           "x": 132,
           "y": 85
         }
@@ -90,21 +95,21 @@
       {
         "type": "image",
         "data": {
-          "image": "blue_dye_je1_be1_1.png",
-          "use1Xscale": true,
-          "name": "blue_dye_je1_be1_1.png",
+          "image": "redstone.png",
+          "use1Xscale": false,
+          "name": "redstone.png",
           "x": 133,
-          "y": 113
+          "y": 112
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tear_1.png",
-          "use1Xscale": true,
-          "name": "tear_1.png",
+          "image": "gunpowder.png",
+          "use1Xscale": false,
+          "name": "gunpowder.png",
           "x": 133,
-          "y": 138
+          "y": 137
         }
       },
       {
@@ -150,42 +155,42 @@
       {
         "type": "image",
         "data": {
-          "image": "ea.png",
+          "image": "sevnatarm.png",
           "use1Xscale": false,
-          "name": "ea.png",
+          "name": "sevnatarm.png",
           "x": 172,
-          "y": 135
+          "y": 137
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "tcoftck.png",
+          "image": "smlliktnspirt.png",
           "use1Xscale": false,
-          "name": "tcoftck.png",
-          "x": 170,
+          "name": "smlliktnspirt.png",
+          "x": 172,
           "y": 85
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "enemy.png",
+          "image": "morirodare.png",
           "use1Xscale": false,
-          "name": "enemy.png",
-          "x": 171,
+          "name": "morirodare.png",
+          "x": 172,
           "y": 111
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "The Court of the Crimson King",
+          "text": "Smells Like Teen Spirit",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "The Court of the Crimson King",
+          "name": "Smells Like Teen Spirit",
           "x": 193,
           "y": 88
         }
@@ -193,12 +198,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Enemy",
+          "text": "Morir� da Re",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Enemy",
+          "name": "Morir� da Re",
           "x": 195,
           "y": 113
         }
@@ -206,14 +211,42 @@
       {
         "type": "label",
         "data": {
-          "text": "Come together",
+          "text": "Seven Nation Army",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Come together",
+          "name": "Seven Nation Army",
           "x": 195,
-          "y": 138
+          "y": 139
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<<",
+          "onClick": {
+            "name": "Apag2"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "<<",
+          "x": 140,
+          "y": 169
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>",
+          "onClick": {
+            "name": "Apag4"
+          },
+          "width": 35,
+          "height": 20,
+          "name": ">>",
+          "x": 308,
+          "y": 169
         }
       }
     ],

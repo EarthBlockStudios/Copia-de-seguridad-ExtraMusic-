@@ -16,6 +16,7 @@ import java.util.HashMap;
 
 import extramusic.world.inventory.Discos4Menu;
 
+import extramusic.procedures.Apag3Procedure;
 import extramusic.procedures.Apag1Procedure;
 
 import extramusic.SiriusrMod;
@@ -67,6 +68,10 @@ public class Discos4ButtonMessage {
 		if (buttonID == 0) {
 
 			Apag1Procedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
+
+			Apag3Procedure.execute(world, x, y, z, entity);
 		}
 	}
 

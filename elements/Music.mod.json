@@ -92,8 +92,8 @@
           "image": "logotipo1_copia_1.png",
           "use1Xscale": false,
           "name": "logotipo1_copia_1.png",
-          "x": 250,
-          "y": 94
+          "x": 243,
+          "y": 86
         }
       },
       {
@@ -124,6 +124,20 @@
           "name": "logotipo2_copia_1.png",
           "x": 111,
           "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Idioma",
+          "onClick": {
+            "name": "Aidioma"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Idioma",
+          "x": 252,
+          "y": 169
         }
       }
     ],

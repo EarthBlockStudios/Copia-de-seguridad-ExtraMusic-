@@ -22,11 +22,9 @@ import extramusic.item.SiItem;
 import extramusic.item.SevennationarmyItem;
 import extramusic.item.SavetonightItem;
 import extramusic.item.MusicscoresItem;
-import extramusic.item.MorirodareItem;
 import extramusic.item.GiothemeItem;
 import extramusic.item.EnemyItem;
 import extramusic.item.DuhastItem;
-import extramusic.item.DiscoVItem;
 import extramusic.item.CotckItem;
 import extramusic.item.CometogetherItem;
 
@@ -37,7 +35,6 @@ public class SiriusrModItems {
 	public static final RegistryObject<Item> COMETOGETHER = REGISTRY.register("cometogether", () -> new CometogetherItem());
 	public static final RegistryObject<Item> ENEMY = REGISTRY.register("enemy", () -> new EnemyItem());
 	public static final RegistryObject<Item> MUSICSTUDIO = block(SiriusrModBlocks.MUSICSTUDIO, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> DISCO_V = REGISTRY.register("disco_v", () -> new DiscoVItem());
 	public static final RegistryObject<Item> COTCK = REGISTRY.register("cotck", () -> new CotckItem());
 	public static final RegistryObject<Item> BARD = REGISTRY.register("bard_spawn_egg",
 			() -> new ForgeSpawnEggItem(SiriusrModEntities.BARD, -16711783, -16724788, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
@@ -47,7 +44,6 @@ public class SiriusrModItems {
 	public static final RegistryObject<Item> SWEWEA = REGISTRY.register("swewea", () -> new SweweaItem());
 	public static final RegistryObject<Item> GIOTHEME = REGISTRY.register("giotheme", () -> new GiothemeItem());
 	public static final RegistryObject<Item> SMLIKTINSPIRT = REGISTRY.register("smliktinspirt", () -> new SmliktinspirtItem());
-	public static final RegistryObject<Item> MORIRODARE = REGISTRY.register("morirodare", () -> new MorirodareItem());
 	public static final RegistryObject<Item> SEVENNATIONARMY = REGISTRY.register("sevennationarmy", () -> new SevennationarmyItem());
 	public static final RegistryObject<Item> SAVETONIGHT = REGISTRY.register("savetonight", () -> new SavetonightItem());
 	public static final RegistryObject<Item> SULTANSOFSWING = REGISTRY.register("sultansofswing", () -> new SultansofswingItem());

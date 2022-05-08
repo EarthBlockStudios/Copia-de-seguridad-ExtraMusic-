@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import extramusic.client.gui.StudioScreen;
 import extramusic.client.gui.MusicScreen;
 import extramusic.client.gui.MstudioScreen;
+import extramusic.client.gui.IdiomaScreen;
 import extramusic.client.gui.ErteScreen;
 import extramusic.client.gui.DiscossssScreen;
 import extramusic.client.gui.Discos4Screen;
@@ -34,9 +35,10 @@ public class SiriusrModScreens {
 			MenuScreens.register(SiriusrModMenus.A_MUSIC, AMusicScreen::new);
 			MenuScreens.register(SiriusrModMenus.DISCOSSSS, DiscossssScreen::new);
 			MenuScreens.register(SiriusrModMenus.ERTE, ErteScreen::new);
+			MenuScreens.register(SiriusrModMenus.DISCOS_2, Discos2Screen::new);
 			MenuScreens.register(SiriusrModMenus.DISCOS_3, Discos3Screen::new);
 			MenuScreens.register(SiriusrModMenus.DISCOS_4, Discos4Screen::new);
-			MenuScreens.register(SiriusrModMenus.DISCOS_2, Discos2Screen::new);
+			MenuScreens.register(SiriusrModMenus.IDIOMA, IdiomaScreen::new);
 		});
 	}
 }

@@ -32,6 +32,10 @@ public class DiscoVItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+<<<<<<< HEAD
 		list.add(new TextComponent("\uFFFDsalo en el estudio de m\uFFFDsica"));
+=======
+		list.add(new TextComponent("\u00FAsalo en el estudio de m\u00FAsica"));
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 	}
 }

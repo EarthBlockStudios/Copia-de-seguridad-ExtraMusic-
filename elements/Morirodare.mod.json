@@ -3,8 +3,13 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "morirodare",
+<<<<<<< HEAD
     "name": "Morir� da re",
     "description": "M�neskin",
+=======
+    "name": "§6Rock// §bMorirò da re",
+    "description": "Maneskin",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
     "creativeTab": {
       "value": "CUSTOM:Discs"
     },

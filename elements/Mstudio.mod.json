@@ -34,19 +34,6 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "text": "Utilizado para crear los discos del mod",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Utilizado para crear los discos del mod",
-          "x": 88,
-          "y": 158
-        }
-      },
-      {
         "type": "button",
         "data": {
           "text": "Atr�s",
@@ -58,6 +45,19 @@
           "name": "Atr�s",
           "x": 84,
           "y": 169
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Mstudioen>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Mstudioen>",
+          "x": 89,
+          "y": 158
         }
       }
     ],

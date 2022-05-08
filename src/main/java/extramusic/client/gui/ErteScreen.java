@@ -15,6 +15,7 @@ import java.util.HashMap;
 
 import extramusic.world.inventory.ErteMenu;
 
+import extramusic.network.SiriusrModVariables;
 import extramusic.network.ErteButtonMessage;
 
 import extramusic.SiriusrMod;
@@ -78,9 +79,17 @@ public class ErteScreen extends AbstractContainerScreen<ErteMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+<<<<<<< HEAD
 		this.font.draw(poseStack, "Es utilizado para fabricar los discos y", 21, 94, -12829636);
 		this.font.draw(poseStack, "DISCO VAC\uFFFDO", 23, 10, -16738048);
 		this.font.draw(poseStack, "el estudio de m\uFFFDsica", 21, 107, -12829636);
+=======
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).dv1) + "", 21, 94, -12829636);
+		this.font.draw(poseStack, "DISCO VAC\uFFFDO", 23, 10, -16738048);
+		this.font.draw(poseStack, "" + ((entity.getCapability(SiriusrModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new SiriusrModVariables.PlayerVariables())).dv2) + "", 21, 107, -12829636);
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
 	}
 
 	@Override

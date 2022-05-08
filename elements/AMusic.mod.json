@@ -26,12 +26,20 @@
       {
         "type": "label",
         "data": {
+<<<<<<< HEAD
           "text": "Los bardos son entidades que te intercambiar�n",
+=======
+          "text": "<VAR:Bard1>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
+<<<<<<< HEAD
           "name": "Los bardos son entidades que te intercambiar�n",
+=======
+          "name": "<VAR:Bard1>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "x": 85,
           "y": 146
         }
@@ -39,12 +47,20 @@
       {
         "type": "label",
         "data": {
+<<<<<<< HEAD
           "text": "5 esmeraldas por un disco de m�sica o 5 de hierro",
+=======
+          "text": "<VAR:bard2>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
+<<<<<<< HEAD
           "name": "5 esmeraldas por un disco de m�sica o 5 de hierro",
+=======
+          "name": "<VAR:bard2>",
+>>>>>>> branch 'master' of https://github.com/EarthBlockStudios/Extramusic.git
           "x": 85,
           "y": 158
         }
