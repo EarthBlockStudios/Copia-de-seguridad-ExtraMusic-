@@ -293,6 +293,15 @@
       "locked_code": false,
       "registry_name": "logro",
       "path": "~/Musica"
+    },
+    {
+      "name": "GUIindex",
+      "type": "gui",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gu_iindex",
+      "path": "~/Musica/Libro"
     }
   ],
   "variable_elements": [],

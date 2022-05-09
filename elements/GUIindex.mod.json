@@ -1,0 +1,87 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "logotipo2_copia_1.png",
+          "use1Xscale": true,
+          "name": "logotipo2_copia_1.png",
+          "x": 163,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Recetas",
+          "width": 130,
+          "height": 20,
+          "name": "Recetas",
+          "x": 145,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Canciones",
+          "width": 130,
+          "height": 20,
+          "name": "Canciones",
+          "x": 145,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mesas de trabajo",
+          "width": 130,
+          "height": 20,
+          "name": "Mesas de trabajo",
+          "x": 145,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Información",
+          "width": 130,
+          "height": 20,
+          "name": "Información",
+          "x": 145,
+          "y": 145
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Idiomas",
+          "width": 61,
+          "height": 20,
+          "name": "Idiomas",
+          "x": 181,
+          "y": 174
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
