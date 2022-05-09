@@ -49,7 +49,7 @@
       "name": "DiscoV",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "disco_v",
       "path": "~/Musica/Discos"
@@ -178,195 +178,12 @@
       "path": "~/Musica/Entidades"
     },
     {
-      "name": "Music",
-      "type": "gui",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "music",
-      "path": "~/Musica/Libro"
-    },
-    {
       "name": "Musicscores",
       "type": "item",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "musicscores",
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Mstudio",
-      "type": "gui",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mstudio",
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Pag1ams",
-      "type": "procedure",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pag_1ams",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Apag1",
-      "type": "procedure",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apag_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Abard",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abard",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "Adiscos",
-      "type": "procedure",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "adiscos",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Musica/Libro"
-    },
-    {
-      "name": "ADV",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "adv",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Musica/Libro"
     },
     {
@@ -596,8 +413,8 @@
   "language_map": {
     "en_us": {
       "entity.betacraft.bard": "Bard",
-      "advancements.sonidosharmoniosos.title": "Sonidos harmoniosos",
       "block.siriusr.musicstudio": "Estudio de m�sica",
+      "advancements.sonidosharmoniosos.title": "Sonidos harmoniosos",
       "item.siriusr.wonderwall.desc": "Oasis",
       "subtitles.smellliktin": "",
       "item.siriusr.cometogether.desc": "The beatles",
@@ -605,14 +422,14 @@
       "item.siriusr.enemy.desc": "Imagine Dragons X JID",
       "item.betacraft.disco_v": "Disco Vac�o",
       "item.siriusr.sultansofswing": "Sultans of Swing",
-      "advancements.sonidosharmoniosos.descr": "�Empieza tu camino en la m�sica!",
       "item.siriusr.sevennationarmy": "Seven Nation Army",
+      "advancements.sonidosharmoniosos.descr": "�Empieza tu camino en la m�sica!",
       "item.siriusr.wonderwall": "Wonderwall",
       "block.betacraft.musicstudio": "Estudio de m�sica",
       "item.siriusr.enemy": "Enemy",
       "advancements.primerasnotas.descr": "Crea un disco en el estudio",
-      "item.siriusr.duhast.desc": "Ramstein",
       "item.siriusr.cotck.desc": "King Crimson",
+      "item.siriusr.duhast.desc": "Ramstein",
       "item.siriusr.si": "TAB",
       "subtitles.swewea": "",
       "item.siriusr.savetonight.desc": "Eagle-Eye Cherry",

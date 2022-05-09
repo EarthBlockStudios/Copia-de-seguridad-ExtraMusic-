@@ -25,14 +25,17 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
-    "guiBoundTo": "Music",
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 0,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"
